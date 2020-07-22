@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #EDEDED
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  text-align: center;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+#lien {
+text-decoration: none;
+}
+
+#lien:hover {
+background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+p {
+  font-family: 'Lora', serif;
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+/*.banner{
+  height: 544px;
+  width: 100%;
+  background-image: url(images/flori-braunhofer-5TVQDwAEUD8-unsplash.jpg);
+
+}*/
+.banner {
+  background-image: url("images/flori-braunhofer-5TVQDwAEUD8-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding: 120px;
+  text-align: center
+  justify-content:center;
+}
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+  }
+}
+
+.article {
+  text-align: justify;
+  padding: 50px;
+  width: 500px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
